@@ -10,6 +10,6 @@ function responseForm(itemResponses) {
 function submitForm(e) {
   let itemResponses = e.response.getItemResponses();
   let message = responseForm(itemResponses);
-  const token = 'ZohsLCstgrvgbwYarohdxPcCSy9PqZYuWU4G5dXeMrD';
+  const token = 'token of each google form';
   NotifyApp.sendNotify(token, message);
 }
